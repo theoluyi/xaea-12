@@ -33,13 +33,23 @@ export default function Things() {
     setThingsList([...thingsList, newThingObject]);
   };
 
+  const handleDelete = (id) => {
+    console.log("congrats you clicked the delete button.");
+    const thingsListMinusOne = thingsList.filter(
+      (thingPojo) => thingPojo.id !== id
+    );
+    setThingsList(thingsListMinusOne);
+  };
+
   const mapThingsListToJSX = () => {
     let allTheThings = thingsList.map((thingPojo) => (
-      <li key={thingPojo.id}>{thingPojo.text}</li>
+      <li key={thingPojo.id}>
+        {thingPojo.text}{" "}
+        <button onClick={() => handleDelete(thingPojo.id)}>X</button>
+      </li>
     ));
     return allTheThings;
   };
-
   const allTheThings = mapThingsListToJSX();
 
   return (
