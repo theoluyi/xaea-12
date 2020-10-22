@@ -1,21 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Button from './Components/Button/Button.js'
-import Counter from './Components/Counter.js'
-import Timer from './Components/Timer/Timer.js'
+import React from "react";
+import "./App.css";
+import Timer from "./Components/Timer/Timer.js";
+import Things from "./Components/Things/Things.js";
 
+//
+// import Button from './Components/Button/Button.js'
+// import Counter from './Components/Counter.js'
 
 function App() {
   return (
-    <div>
-      {/* <Counter/> */}
-      {/* <Button/> */}
-      <Timer/>
+    <div className="app">
+      <Timer />
+      <Things />
     </div>
   );
 }
-
-
 
 export default App;
