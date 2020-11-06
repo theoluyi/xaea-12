@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./index.css";
+
 // https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
 
 function Form() {
@@ -16,7 +18,7 @@ function Form() {
     console.log("state is: ", state);
   };
   return (
-    <div>
+    <div className="form">
       <h2>Tell us about yourself</h2>
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <label htmlFor="name">Name: </label>
