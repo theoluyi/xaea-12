@@ -1,4 +1,6 @@
 .app {
   background-color: palegreen;
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
 }
