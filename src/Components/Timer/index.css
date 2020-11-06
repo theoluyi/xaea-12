@@ -1,4 +1,6 @@
 .timer {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  /* equiluminant eyesore version */
+  background-color: #F581FB;
   padding: 1rem;
 }
