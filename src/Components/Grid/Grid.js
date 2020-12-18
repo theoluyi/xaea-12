@@ -3,6 +3,7 @@ import "./index.css";
 import Form from "../Form/Form"
 import Things from "../Things/Things"
 import Timer from "../Timer/Timer"
+import Counter from '../Counter'
 
 const NotebookCard = (props) => {
   return <div id={props.color}>{props.children}</div>;
@@ -15,7 +16,7 @@ function Grid() {
       <NotebookCard color="dark-red" > I am an arbitrary child prop in the dark-red notebook</NotebookCard>
       <NotebookCard color="dark-green" > <Things/> </NotebookCard>
       <NotebookCard color="blue" > <Timer/></NotebookCard>
-      <NotebookCard color="red" > </NotebookCard>
+      <NotebookCard color="red" > <Counter/></NotebookCard>
       <NotebookCard color="green" > </NotebookCard>
       <NotebookCard color="light-blue" ><Form/></NotebookCard>
       <NotebookCard color="light-red" > <Form/></NotebookCard>
