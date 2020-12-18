@@ -1,6 +1,7 @@
 .full-page {
-  height: 100vh;
-  background: whitesmoke;
+  width: 70vmin;
+  height: 70vmin;
+  /* background: whitesmoke; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -9,6 +10,12 @@
     "box4 box5 box6"
     "box7 box8 box9";
 }
+
+/* .full-page:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */
 
 #dark-blue {
   background: darkblue;

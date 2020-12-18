@@ -1,17 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
-// import Button from "react-bootstrap/Button";
 
 const NotebookCard = (props) => {
-  return <div id={props.color}> </div>;
+  return <div id={props.color}>X</div>;
 };
 
-function App() {
-  // selectedNoteIndex, selectedNote, notes
-  const [selectedNoteIndex, setSelectedNoteIndex] = useState(null);
-  const [selectedNote, setSelectedNote] = useState(null);
-  const [notes, setNotes] = useState(null);
-
+function Grid() {
   return (
     <div className="full-page">
       <NotebookCard color="dark-blue" />
@@ -27,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Grid;
