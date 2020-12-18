@@ -5,6 +5,7 @@ import Things from "../Things/Things"
 import Timer from "../Timer/Timer"
 import Counter from '../Counter'
 
+// adding children changes EVERYTHING :)
 const NotebookCard = (props) => {
   return <div id={props.color}>{props.children}</div>;
 };
