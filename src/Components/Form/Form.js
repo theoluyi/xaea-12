@@ -3,6 +3,7 @@ import "./index.css";
 
 // https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
 // mehhhhhhhh
+
 function Form() {
   const [state, setState] = useState({
     name: "",
