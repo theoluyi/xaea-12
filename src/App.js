@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Grid from "./Components/Grid/Grid";
+import Things from "./Components/Things/Things"
 // import Timer from "./Components/Timer/Timer.js";
 // import Things from "./Components/Things/Things.js";
 // import Form from "./Components/Form/Form.js";
@@ -12,9 +13,7 @@ function App() {
   return (
     <div className="app">
       <Grid />
-      <Grid/>
-      <Grid/>
-      <Grid/>
+      <Things />
 
     </div>
   );
