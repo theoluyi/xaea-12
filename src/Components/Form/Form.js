@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 
 // https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
-
+// mehhhhhhhh
 function Form() {
   const [state, setState] = useState({
     name: "",
@@ -17,6 +17,7 @@ function Form() {
     e.preventDefault();
     console.log("state is: ", state);
   };
+
   return (
     <div className="form">
       <h2>Tell us about yourself</h2>
