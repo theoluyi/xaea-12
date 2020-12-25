@@ -10,6 +10,9 @@ import Things from "./Components/Things/Things"
 // import Counter from './Components/Counter.js'
 
 function App() {
+
+  console.log(Object.keys(Things)) // empty array
+
   return (
     <div className="app">
       <Grid />
