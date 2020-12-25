@@ -3,6 +3,8 @@ import "./App.css";
 import Grid from "./Components/Grid/Grid";
 import Things from "./Components/Things/Things"
 import Button from './Components/Button/Button.js'
+import Counter from './Components/Counter.js'
+
 
 
 // import Timer from "./Components/Timer/Timer.js";
@@ -21,6 +23,7 @@ function App() {
       <Grid />
       <Things />
       <Button/>
+      <Counter/>
 
     </div>
   );
