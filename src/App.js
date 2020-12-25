@@ -16,8 +16,6 @@ import Counter from './Components/Counter.js'
 
 function App() {
 
-  console.log(Things.__proto__)
-
   return (
     <div className="app">
       <Grid />
