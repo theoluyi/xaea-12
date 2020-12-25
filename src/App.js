@@ -11,7 +11,7 @@ import Things from "./Components/Things/Things"
 
 function App() {
 
-  console.log(Object.keys(Things)) // empty array
+  console.log(Things.__proto__) // empty array
 
   return (
     <div className="app">
